@@ -1,0 +1,65 @@
+<apex:page >
+    
+    
+        
+      <div class="main">
+          <a herf="#">Home</a>&nbsp; &ensp; 
+                <a herf="#">Waiting List</a>&nbsp; &ensp; 
+                <a herf="#">Old patients</a>&nbsp; &ensp; 
+                <a herf="#">Master Information</a>&nbsp; &ensp; 
+                <a herf="#">Daily Performance</a>&nbsp; &ensp; 
+                <a herf="#">Reports Menu</a>&nbsp; &ensp; 
+                <a herf="#">OPD Collection</a>&nbsp; &ensp; 
+                <a herf="#">Logout</a>&nbsp; &ensp; 
+          
+    </div>
+    <div class="bigicon">
+        <a herf="#">New Patient</a>&nbsp; &ensp;
+        <a herf="#">Follow Up</a>    &nbsp; &ensp;<br/>
+        <a herf="#">List FollowUp</a>&nbsp; &ensp;  
+         
+        <a herf="#">Change Pasword</a>&nbsp; &ensp; 
+        
+        
+    </div>
+          
+    <style>
+        .main{
+        height:60px;
+        fon-family:calibri(body),bold:yes;
+        font-size:15px;
+        font-position:center;
+        float:medium;
+        margin-top:30px;
+        margin-left:60px;
+        
+        }
+        .bigicon{
+        font-family:calibri(body);
+        font-size:15px;
+        flot:Medium;
+        margin-top:100px;
+        margin-left:600px;
+        
+        }
+        .bigicon  a{
+        line-height: 39px;
+        spelling-spacing: 30px;
+        
+        }
+        
+        
+        
+    </style>
+                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+ 
+</apex:page>

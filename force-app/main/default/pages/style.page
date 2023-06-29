@@ -1,0 +1,73 @@
+<apex:page >
+    <style>
+        .form {
+            width: 100px;
+            height: 380px;
+            background: linear-gradient(to top, rgba(1, 2, 3, 8) 50%, rgba(8, 9, 7, 8) 50%);
+            position: absolute;
+            top: 50px;
+            left: 870px;
+            border-radius: 80px;
+            padding: 60px;
+        }
+        
+        .form h1 {
+            width: 220px;
+            font-family: sans-serif;
+            text-align: center;
+            color: #ffffff;
+            font-size: 22px;
+            margin: 2px;
+            padding: 8px;
+        }
+        
+        .form input {
+            width: 200px;
+            height: 35px;
+            background: transparent;
+            border-bottom: 1px solid #ffffff;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            color: #fff;
+            font-size: 15px;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            font-family: sans-serif;
+        }
+        
+        .btnn {
+            width: 150px;
+            height: 30px;
+            background: #008000;
+            border: none;
+            margin-top: 30px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: #fff;
+            padding: 8px;
+        }
+    </style>
+    
+    <apex:image url="{!URLFOR($Resource.SFHosImage)}" width="70" height="70" /><br/>
+    <apex:pageBlock >
+        <apex:pageBlockSection >
+            <h1>
+                Home   &nbsp; &ensp;   
+                About  &nbsp; &ensp;
+                Contact   &nbsp; &ensp;
+            </h1>
+            <div class="form">
+                <h1>
+                    OPD Login
+                </h1>
+                <input type="consultant" name="consultant" placeholder="Consultant"/><br/>
+                <input type="password" name="" placeholder="Enter Password Here"/><br/>
+                <button class="btnn" ><a href="#">Login</a></button>
+            </div>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    
+    <apex:image url="{!URLFOR($Resource.SFbacImage)}" width="1300" height="500" /><br/>
+</apex:page>

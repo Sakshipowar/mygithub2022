@@ -1,0 +1,48 @@
+<apex:page >
+    <body>
+        <h1>
+            Store Hours
+        </h1>
+        <table >
+            <tr >
+                <th>Date</th>
+                <th>Height</th>
+                <th>Hb</th>
+                <th>Blood Urea</th>
+                <th>SrCreatinine</th>
+                <th>Urineprotein</th>
+                <th>Urine Pc</th>
+                
+           </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <script>
+    function fun(){
+    var Consultant = document.getElementById("Username").value;
+    var password = document.getElementById("password").value;
+    if(Consultant == 'Consultant' && password == '1234567'){
+        alert("sucess full !")
+        window.location.assign("des.html")
+    }
+    else{
+        alert("Wrong entry invalid")
+        }
+    }
+   
+    </script>
+            font-color: #fff;
+        font-size:30px;
+        line-height:100px;
+        padding:0 100px;
+        font-weight:bold;
+        float:left;
+            
+            
+            
+            <apex:image url="{!URLFOR($Resource.SFimageLogomay23)}" width="75" height="100" /><br/>
+<apex:image url="{!URLFOR($Resource.SFHpimagemay23)}" width="1480" height="755" /><br/>
+</apex:page>

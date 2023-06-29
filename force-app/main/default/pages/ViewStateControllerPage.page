@@ -1,0 +1,9 @@
+<apex:page controller="ViewStateController">
+    <apex:form >
+        {!a}
+        {!opp.name}
+        {!d}
+        {!z}
+    <apex:commandButton value="Click Me" action="{!changeData}"/>
+    </apex:form>
+</apex:page>

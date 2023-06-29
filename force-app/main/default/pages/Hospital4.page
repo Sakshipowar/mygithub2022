@@ -1,0 +1,170 @@
+<apex:page >
+    <div class="nav">
+        <h1>
+            Investigation Chart<br/>
+    </h1>
+    
+        <tr>
+            <td>
+                Name :<br/>
+            </td>
+            <td>
+                <input type="text" name=""/>
+            </td>
+        </tr>
+        
+    </div><br/>
+    
+    
+    
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Height</th>
+            <th>Weight</th>
+            <th>Hb</th>
+            <th>Blood Urea</th>
+            <th>SrCreatinine</th>
+            <th>Urineprotein</th>
+            <th>UrinePC</th>
+            <th>UrineRBC</th>
+            <th>24hr Urineprotein/p:c ratio</th>
+            <th>Serum Cholestrol</th>
+            <th>Serum Album</th>
+            <th>Other1</th>
+            <th>Other2</th>
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+    </table>
+    <style>
+        body{
+        margin:0;
+        padding:0;
+        font-family:Arial;
+        
+        }
+        table,th,td{
+        width:800px;
+        margin:auto;
+        font-size:30px;
+        padding:20px;
+        text-align:center;
+        border:2px solid#000;
+        border-collapse: collapse;
+        
+        }
+        .nav{
+        font-size:25px;
+        font-family:Calibri(body);
+        margin-left:50px;
+        top:80px;
+        
+        
+        
+        }
+        
+        
+    </style>
+</apex:page>

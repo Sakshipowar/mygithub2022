@@ -1,0 +1,152 @@
+<apex:page >
+    
+    
+<div class="main">
+          <a herf="#"><i class="fa-thin fa-house"></i>Home</a>&nbsp; &ensp; 
+                <a herf="#">Waiting List</a>&nbsp; &ensp; 
+                <a herf="#">Old patients</a>&nbsp; &ensp; 
+                <a herf="#">Master Information</a>&nbsp; &ensp; 
+                <a herf="#">Daily Performance</a>&nbsp; &ensp; 
+                <a herf="#">Reports Menu</a>&nbsp; &ensp; 
+                <a herf="#">OPD Collection</a>&nbsp; &ensp; 
+                <a herf="#">Logout</a>&nbsp; &ensp; 
+          
+    </div >
+    
+    <div class="navbar">
+        
+    
+    <table>
+        <tr>
+            <td>
+                DOB :
+            </td>
+            <td>
+                <input type="Date"  id="send" oninput="result.value=send.value"/>
+                
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+                Title
+            </td>
+            <td>
+                <input type="text" name=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Name :
+            </td>
+            <td>
+                <input type="text" name=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Address :
+            </td>
+            <td>
+                <input type="text" name=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Mobile No :
+            </td>
+            <td>
+                <input type="text" name=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Email Id:
+            </td>
+            <td>
+                <input type="text" name=""/>
+            </td>
+            
+        </tr>
+        
+        <tr>
+            <td>
+                Weight(kg)
+            </td>
+            <td>
+                <input type="text" name=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Patient Id
+            </td>
+            <td>
+                <input type="text" name=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Age
+            </td>
+            <td>
+                <input type="text" name=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Sex
+            </td>
+            <td>
+                <input type="text" name=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Landline No
+            </td>
+            <td>
+                <input type="text" name=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Occupation
+            </td>
+            <td>
+                <input type="text" name=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Height(cm)
+            </td>
+            <td>
+                <input type="text" name=""/>
+            </td>
+        </tr>
+        
+    </table>
+    </div>
+    
+    
+        <style>
+        .main{
+        height:60px;
+        fon-family:calibri(body),bold:yes;
+        font-size:15px;
+        font-position:center;
+        float:medium;
+        margin-top:30px;
+        margin-left:60px;
+        
+        }
+        .navbar{
+         float:medium;
+         Margin-left:60px;
+            font-family:Arial unicode;
+         }
+         
+            
+        </style>
+</apex:page>
